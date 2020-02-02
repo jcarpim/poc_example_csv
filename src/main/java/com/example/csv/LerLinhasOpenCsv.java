@@ -1,5 +1,6 @@
 package com.example.csv;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
@@ -14,7 +15,8 @@ public class LerLinhasOpenCsv {
 
     public static void main(String[] args) throws IOException, CsvException {
 
-        Reader reader = Files.newBufferedReader(Paths.get("pessoas.csv"));
+    	Reader reader = Files.newBufferedReader(Paths.get("C:" + File.separator + "desafio" + File.separator + "uberair.csv"));
+
         CSVReader csvReader = new CSVReaderBuilder(reader).withSkipLines(1).build();
 
         List<String[]> voos = csvReader.readAll();

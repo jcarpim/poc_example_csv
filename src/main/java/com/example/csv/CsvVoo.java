@@ -9,6 +9,6 @@ public class CsvVoo {
     // Gets e Sets omitidos para ficar menor
 
     public String toString() {
-        return "CsvPessoa{Origem='" + origem + "\', Destino=" + destino + "\', Saida='" + saida + "\' +, Chegada='" + chegada + "\'}";
+        return "CsvVoo{Origem='" + origem + "\', Destino=" + destino + "\', Saida='" + saida + "\' +, Chegada='" + chegada + "\'}";
     }
 }
