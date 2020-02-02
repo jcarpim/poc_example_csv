@@ -1,13 +1,13 @@
-package com.example.csv.demo;
+package com.example.csv;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class CsvExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(CsvExampleApplication.class, args);
 	}
 
 }
