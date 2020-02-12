@@ -52,6 +52,6 @@ public class LerLinhasOpenCsv {
         }
         
       //  System.out.println("Origem: "+csvVoo.getOrigem());
-        System.out.println("Origem: "+csvVoo.toString());
+      // System.out.println("Origem: "+csvVoo.toString());
     }
 }
