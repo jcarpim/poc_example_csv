@@ -17,4 +17,38 @@ public class CsvVoo {
     public String toString() {
         return "CsvVoo{Origem='" + origem + "\', Destino=" + destino + "\', Saida='" + saida + "\' +, Chegada='" + chegada + "\'}";
     }
+
+	public String getOrigem() {
+		return origem;
+	}
+
+	public void setOrigem(String origem) {
+		this.origem = origem;
+	}
+
+	public String getDestino() {
+		return destino;
+	}
+
+	public void setDestino(String destino) {
+		this.destino = destino;
+	}
+
+	public String getSaida() {
+		return saida;
+	}
+
+	public void setSaida(String saida) {
+		this.saida = saida;
+	}
+
+	public String getChegada() {
+		return chegada;
+	}
+
+	public void setChegada(String chegada) {
+		this.chegada = chegada;
+	}
+    
+    
 }
